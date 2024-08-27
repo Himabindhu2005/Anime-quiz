@@ -251,8 +251,8 @@ section .option-list .option {
 .result-box {
   display: flex;
   flex-direction: column;
-  height: 45%;
-  width: 50%;
+  height: 350px;
+  width: 300px;
   padding: 2rem;
   border: 5px solid rgb(25, 124, 177);
   box-shadow: 0 0 10px rgb(44, 68, 189);

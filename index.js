@@ -13,7 +13,7 @@ let question = [
   {
     numb: 2,
     question: "Who is the Armored Titan?",
-    answer: "Reiner Braun",
+    answer: "Reiner",
     options: [
       "Bertholdt",
       "Reiner",
@@ -98,6 +98,7 @@ nextBtn.addEventListener('click', () => {
     showQuestion(questionCounter);
   } else {
     quizBox.classList.add('hidden');
+    startBox.classList.add('hidden');
     resultBox.classList.remove('hidden');
     scoreText.innerHTML = `<span>${score}/${question.length}</span>`;
   }
